@@ -155,6 +155,18 @@ img {
   flex-shrink: 0;
 }
 
+.sns-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sns-sublabel {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
 .note-icon {
   font-family: Georgia, serif;
   font-size: 1.25rem;
