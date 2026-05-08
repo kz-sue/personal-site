@@ -111,6 +111,10 @@ img {
   letter-spacing: 0.04em;
 }
 
+.section-title--line {
+  border-left-color: #06C755;
+}
+
 /* ===== SNS ===== */
 .sns-grid {
   display: grid;
@@ -294,6 +298,7 @@ img {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
+  border-top: 3px solid #06C755;
   overflow: hidden;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
