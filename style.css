@@ -106,6 +106,40 @@ img {
   line-height: 1.9;
 }
 
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0 28px;
+}
+
+.hero-tag {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.78rem;
+  padding: 5px 14px;
+  border-radius: 20px;
+  letter-spacing: 0.05em;
+}
+
+.hero-cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 13px 36px;
+  border-radius: var(--radius);
+  letter-spacing: 0.06em;
+  transition: opacity 0.2s ease;
+}
+
+.hero-cta:hover {
+  opacity: 0.85;
+}
+
 /* ===== Section ===== */
 .section {
   margin-bottom: 56px;
@@ -124,6 +158,42 @@ img {
 
 .section-title--line {
   border-left-color: #06C755;
+}
+
+/* ===== Services ===== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.service-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  padding: 24px 20px;
+}
+
+.service-icon {
+  font-size: 1.4rem;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.service-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--navy);
+  line-height: 1.5;
+}
+
+.service-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.75;
 }
 
 /* ===== SNS ===== */
@@ -374,6 +444,48 @@ img {
   letter-spacing: 0.06em;
 }
 
+/* ===== Contact ===== */
+.contact-card {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 18px
+    ),
+    var(--navy);
+  border-radius: var(--radius);
+  padding: 48px 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-lead {
+  font-size: 0.93rem;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 13px 32px;
+  border-radius: var(--radius);
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s ease;
+}
+
+.contact-btn:hover {
+  opacity: 0.85;
+}
+
 /* ===== Footer ===== */
 .footer {
   background:
@@ -405,6 +517,10 @@ img {
     padding: 40px 16px;
   }
 
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
   .sns-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -424,6 +540,10 @@ img {
 
   .works-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-card {
+    padding: 36px 20px;
   }
 }
 
