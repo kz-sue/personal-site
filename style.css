@@ -196,6 +196,68 @@ img {
   line-height: 1.75;
 }
 
+/* ===== Courses ===== */
+.course-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.course-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--navy);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+.course-icon--master {
+  background: var(--accent);
+}
+
+.course-info {
+  flex: 1;
+}
+
+.course-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.course-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 3px;
+}
+
+.course-arrow {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
 /* ===== SNS ===== */
 .sns-grid {
   display: grid;
