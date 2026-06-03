@@ -468,6 +468,13 @@ img {
   margin-bottom: 28px;
 }
 
+.contact-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
 .contact-btn {
   display: inline-flex;
   align-items: center;
