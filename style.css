@@ -427,6 +427,17 @@ img {
   line-height: 1.55;
 }
 
+.book-publisher {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+.book-publisher--commercial {
+  color: var(--navy-light);
+  font-weight: 600;
+}
+
 /* ===== Stamps ===== */
 .stamps-grid {
   display: grid;
