@@ -588,6 +588,12 @@ img {
   position: relative;
 }
 
+.hero-logo {
+  width: 96px;
+  margin: 0 auto 20px;
+  filter: brightness(0) invert(1);
+}
+
 .lang-switch {
   position: absolute;
   top: 18px;
