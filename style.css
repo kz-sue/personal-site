@@ -737,19 +737,6 @@ img {
   color: var(--accent);
 }
 
-/* ===== Contact additions ===== */
-.contact-sub {
-  font-size: 0.83rem;
-  color: rgba(255, 255, 255, 0.65);
-  margin: 24px 0 14px;
-}
-
-.contact-btn--sub {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  font-weight: 500;
-}
-
 /* ===== Sub-page header (特商法など) ===== */
 .page-header {
   background:
