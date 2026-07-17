@@ -75,12 +75,12 @@ a:hover { color: var(--teal-hover); }
 .brand:hover { color: var(--ink); }
 .brand-ja {
   font-family: var(--serif);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: .14em;
 }
 .brand-en {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: .32em;
   color: var(--ink-45);
 }
@@ -88,14 +88,14 @@ a:hover { color: var(--teal-hover); }
 .site-nav {
   display: flex;
   gap: 24px;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: .12em;
 }
 .site-nav a { color: var(--ink-65); }
 .site-nav a:hover { color: var(--teal); }
 
 .header-cta {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--bg);
   background: var(--teal);
   padding: 7px 18px;
@@ -131,14 +131,14 @@ a:hover { color: var(--teal-hover); }
 }
 .rail-title {
   font-family: var(--serif);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   letter-spacing: .14em;
   margin-top: 14px;
 }
 .rail-title--tight { letter-spacing: .12em; }
 .rail-en {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: .28em;
   color: var(--ink-40);
   margin-top: 6px;
@@ -174,7 +174,7 @@ a:hover { color: var(--teal-hover); }
 
 .hero-main { padding: clamp(36px, 5vw, 48px) clamp(22px, 4vw, 40px); }
 .hero-eyebrow {
-  font-size: clamp(9px, 1.2vw, 10px);
+  font-size: clamp(10px, 1.3vw, 11px);
   letter-spacing: .4em;
   color: var(--teal);
   margin: 0 0 clamp(16px, 2.4vw, 20px);
@@ -188,7 +188,7 @@ a:hover { color: var(--teal-hover); }
   line-height: 1.15;
 }
 .hero-sub {
-  font-size: clamp(10px, 1.4vw, 12px);
+  font-size: clamp(11px, 1.5vw, 13px);
   letter-spacing: .26em;
   color: var(--ink-50);
   margin: 0 0 clamp(20px, 3.4vw, 30px);
@@ -196,7 +196,7 @@ a:hover { color: var(--teal-hover); }
 .hero-bio {
   margin: 0 0 clamp(20px, 3.4vw, 30px);
   max-width: 420px;
-  font-size: clamp(12px, 1.6vw, 13px);
+  font-size: clamp(13px, 1.7vw, 14px);
   line-height: 2.1;
   font-weight: 300;
   color: rgba(232, 236, 244, .8);
@@ -214,7 +214,7 @@ a:hover { color: var(--teal-hover); }
   align-items: center;
   padding: 12px 2px;
   border-bottom: 1px solid var(--line-card);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink);
 }
 .hero-link .arrow { color: var(--teal); }
@@ -225,13 +225,13 @@ a:hover { color: var(--teal-hover); }
   margin: 0;
   display: grid;
   grid-template-columns: 104px 1fr;
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.9;
 }
 .spec-list dt {
   padding: 11px 0;
   border-bottom: 1px solid var(--line-soft);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: .22em;
   color: var(--teal);
   align-self: center;
@@ -261,13 +261,13 @@ a:hover { color: var(--teal-hover); }
 .profile-main { flex: 1 1 300px; }
 .profile-name {
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: .08em;
   margin: 0 0 10px;
 }
 .profile-role {
-  font-size: 10px;
+  font-size: 11px;
   font-family: var(--sans);
   font-weight: 400;
   color: var(--teal);
@@ -276,7 +276,7 @@ a:hover { color: var(--teal-hover); }
 }
 .profile-bio {
   margin: 0 0 16px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 2;
   font-weight: 300;
   color: var(--ink-75);
@@ -286,7 +286,7 @@ a:hover { color: var(--teal-hover); }
   margin: 0 0 16px;
   padding: 0;
   list-style: none;
-  font-size: 11.5px;
+  font-size: 12.5px;
   line-height: 2.3;
   color: rgba(232, 236, 244, .7);
 }
@@ -300,7 +300,7 @@ a:hover { color: var(--teal-hover); }
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: .06em;
 }
 .profile-tags span {
@@ -324,17 +324,17 @@ a:hover { color: var(--teal-hover); }
 .service-row:last-child { border-bottom: none; }
 .service-row:hover { border-bottom-color: rgba(63, 208, 197, .6); }
 .service-idx {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--ink-40);
 }
 .service-name {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: .06em;
 }
 .service-desc {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--ink-55);
   margin-top: 4px;
   font-weight: 300;
@@ -370,11 +370,11 @@ a:hover { color: var(--teal-hover); }
 }
 .course-name {
   font-family: var(--serif);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
 }
 .course-level {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: .16em;
   color: var(--teal);
   border: 1px solid var(--teal-line);
@@ -382,13 +382,13 @@ a:hover { color: var(--teal-hover); }
 }
 .course-desc {
   margin: 0;
-  font-size: 11.5px;
+  font-size: 12.5px;
   line-height: 1.9;
   font-weight: 300;
   color: var(--ink-65);
 }
 .course-card .arrow {
-  font-size: 18px;
+  font-size: 19px;
   color: var(--teal);
 }
 
@@ -414,19 +414,19 @@ a:hover { color: var(--teal-hover); }
   margin-bottom: 8px;
 }
 .book-title {
-  font-size: 10.5px;
+  font-size: 11.5px;
   line-height: 1.5;
   font-weight: 500;
 }
 .book-desc {
-  font-size: 9.5px;
+  font-size: 10.5px;
   line-height: 1.7;
   color: rgba(232, 236, 244, .6);
   margin-top: 4px;
   font-weight: 300;
 }
 .book-pub {
-  font-size: 9px;
+  font-size: 10px;
   color: var(--ink-45);
   margin-top: 6px;
 }
@@ -454,7 +454,7 @@ a:hover { color: var(--teal-hover); }
   border-radius: 6px;
 }
 .stamp-name {
-  font-size: 10.5px;
+  font-size: 11.5px;
   font-weight: 500;
   text-align: center;
 }
@@ -481,16 +481,16 @@ a:hover { color: var(--teal-hover); }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 19px;
 }
 .wip-name {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .badge-soon {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: .2em;
   color: var(--teal);
   border: 1px solid var(--teal-line);
@@ -515,7 +515,7 @@ a:hover { color: var(--teal-hover); }
   align-items: center;
   gap: 12px;
   color: var(--ink);
-  font-size: 11.5px;
+  font-size: 12.5px;
   transition: border-color .18s ease;
 }
 .sns-card:hover {
@@ -525,13 +525,13 @@ a:hover { color: var(--teal-hover); }
 .lab-grid .sns-card {
   padding: 18px 20px;
   gap: 14px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .sns-card--disabled { opacity: .55; }
 .sns-card--disabled:hover { border-color: var(--line-card); }
 .sns-glyph {
   color: var(--teal);
-  font-size: 14px;
+  font-size: 15px;
   width: 16px;
   text-align: center;
   flex: none;
@@ -541,13 +541,13 @@ a:hover { color: var(--teal-hover); }
   font-weight: 700;
 }
 .sns-sub {
-  font-size: 9px;
+  font-size: 10px;
   color: var(--ink-50);
 }
 .sns-card .arrow { margin-left: auto; color: var(--teal); }
 .badge-soon--sm {
   margin-left: auto;
-  font-size: 8.5px;
+  font-size: 9.5px;
   letter-spacing: .18em;
   padding: 3px 8px;
 }
@@ -576,22 +576,22 @@ a:hover { color: var(--teal-hover); }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 17px;
 }
 .archive-name {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
 }
 .archive-desc {
-  font-size: 10.5px;
+  font-size: 11.5px;
   color: var(--ink-50);
   margin-top: 3px;
   font-weight: 300;
 }
 .archive-card .arrow {
   margin-left: auto;
-  font-size: 16px;
+  font-size: 17px;
   color: var(--teal);
 }
 
@@ -611,20 +611,20 @@ a:hover { color: var(--teal-hover); }
 }
 .contact-title {
   font-family: var(--serif);
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   letter-spacing: .1em;
   margin: 0;
 }
 .contact-lead {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--ink-50);
   margin: 6px 0 0;
   font-weight: 300;
   line-height: 1.9;
 }
 .contact-btn {
-  font-size: 12px;
+  font-size: 13px;
   padding: 12px 28px;
   background: var(--teal);
   color: var(--bg);
@@ -646,7 +646,7 @@ a:hover { color: var(--teal-hover); }
   margin-top: 44px;
   padding-top: 20px;
   border-top: 1px solid var(--line);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: .14em;
   color: var(--ink-40);
 }
@@ -669,12 +669,12 @@ a:hover { color: var(--teal-hover); }
 }
 .legal-list {
   margin: 0;
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.9;
 }
 .legal-list dt {
   padding: 14px 0 0;
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: .22em;
   color: var(--teal);
 }
