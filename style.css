@@ -483,6 +483,15 @@ a:hover { color: var(--teal-hover); }
   justify-content: center;
   font-size: 19px;
 }
+.wip-icon--img {
+  background: #fff;
+  padding: 6px;
+}
+.wip-icon--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .wip-name {
   font-family: var(--serif);
   font-size: 15px;
