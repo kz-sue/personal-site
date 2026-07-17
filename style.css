@@ -452,6 +452,8 @@ a:hover { color: var(--teal-hover); }
   display: block;
   margin-bottom: 8px;
   border-radius: 6px;
+  background: #fff;
+  padding: 8px;
 }
 .stamp-name {
   font-size: 11.5px;
