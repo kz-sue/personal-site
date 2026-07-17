@@ -732,6 +732,31 @@ a.service-row:hover { border-bottom-color: rgba(63, 208, 197, .6); }
   color: rgba(232, 236, 244, .8);
   text-wrap: pretty;
 }
+.sub-lead--follow { margin-top: 14px; }
+.works-note { color: var(--ink-50); }
+.stamp-strip {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+.stamp-strip img {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  flex: none;
+  object-fit: contain;
+  background: #fff;
+  padding: 4px;
+}
+.stamp-strip-more {
+  font-size: 11px;
+  letter-spacing: .14em;
+  margin-left: 8px;
+}
 .sub-tags {
   display: flex;
   gap: 8px;
