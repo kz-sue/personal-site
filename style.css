@@ -322,7 +322,8 @@ a:hover { color: var(--teal-hover); }
   transition: border-color .18s ease;
 }
 .service-row:last-child { border-bottom: none; }
-.service-row:hover { border-bottom-color: rgba(63, 208, 197, .6); }
+a.service-row { color: var(--ink); }
+a.service-row:hover { border-bottom-color: rgba(63, 208, 197, .6); }
 .service-idx {
   font-size: 11px;
   color: var(--ink-40);
