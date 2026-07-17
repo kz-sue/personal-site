@@ -196,7 +196,7 @@ a:hover { color: var(--teal-hover); }
 .hero-bio {
   margin: 0 0 clamp(20px, 3.4vw, 30px);
   max-width: 420px;
-  font-size: clamp(13px, 1.7vw, 14px);
+  font-size: clamp(14px, 1.8vw, 15px);
   line-height: 2.1;
   font-weight: 300;
   color: rgba(232, 236, 244, .8);
@@ -225,7 +225,7 @@ a:hover { color: var(--teal-hover); }
   margin: 0;
   display: grid;
   grid-template-columns: 104px 1fr;
-  font-size: 13.5px;
+  font-size: 14.5px;
   line-height: 1.9;
 }
 .spec-list dt {
@@ -276,7 +276,7 @@ a:hover { color: var(--teal-hover); }
 }
 .profile-bio {
   margin: 0 0 16px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 2;
   font-weight: 300;
   color: var(--ink-75);
@@ -286,7 +286,7 @@ a:hover { color: var(--teal-hover); }
   margin: 0 0 16px;
   padding: 0;
   list-style: none;
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 2.3;
   color: rgba(232, 236, 244, .7);
 }
@@ -334,7 +334,7 @@ a:hover { color: var(--teal-hover); }
   letter-spacing: .06em;
 }
 .service-desc {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-55);
   margin-top: 4px;
   font-weight: 300;
@@ -382,7 +382,7 @@ a:hover { color: var(--teal-hover); }
 }
 .course-desc {
   margin: 0;
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.9;
   font-weight: 300;
   color: var(--ink-65);
@@ -617,7 +617,7 @@ a:hover { color: var(--teal-hover); }
   margin: 0;
 }
 .contact-lead {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-50);
   margin: 6px 0 0;
   font-weight: 300;
@@ -669,7 +669,7 @@ a:hover { color: var(--teal-hover); }
 }
 .legal-list {
   margin: 0;
-  font-size: 13.5px;
+  font-size: 14.5px;
   line-height: 1.9;
 }
 .legal-list dt {
