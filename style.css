@@ -733,6 +733,73 @@ a.service-row:hover { border-bottom-color: rgba(63, 208, 197, .6); }
   text-wrap: pretty;
 }
 .sub-lead--follow { margin-top: 14px; }
+.sub-glyph-unit { font-size: 20px; }
+
+/* ===== 電子書籍一覧 ===== */
+.book-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.book-entry {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 24px;
+  align-items: start;
+  color: var(--ink);
+  transition: opacity .18s ease;
+}
+.book-entry:hover {
+  opacity: .85;
+  color: var(--ink);
+}
+.book-entry + .book-entry {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 20px;
+}
+.book-entry-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.book-entry-title {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  line-height: 1.5;
+}
+.book-entry-pub {
+  font-size: 10px;
+  letter-spacing: .14em;
+  color: var(--ink-45);
+}
+.book-entry-pub--badge {
+  letter-spacing: .16em;
+  color: var(--teal);
+  border: 1px solid var(--teal-line);
+  padding: 3px 10px;
+}
+.book-entry-desc {
+  margin: 0 0 12px;
+  font-size: 13.5px;
+  line-height: 1.9;
+  font-weight: 300;
+  color: var(--ink-65);
+  text-wrap: pretty;
+}
+.book-entry-btn {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: .16em;
+  color: var(--teal);
+  border: 1px solid var(--teal-line);
+  padding: 5px 14px;
+  transition: border-color .18s ease;
+}
+.book-entry:hover .book-entry-btn { border-color: rgba(63, 208, 197, .8); }
 .works-note { color: var(--ink-50); }
 .stamp-strip {
   display: flex;
@@ -843,4 +910,18 @@ a.service-row:hover { border-bottom-color: rgba(63, 208, 197, .6); }
     padding: 20px 22px 14px;
   }
   .books-grid--four { grid-template-columns: repeat(2, 1fr); }
+  .sub-glyph--count { font-size: 30px; }
+  .sub-glyph--count .sub-glyph-unit { font-size: 13px; }
+  .book-entry {
+    grid-template-columns: 76px 1fr;
+    gap: 16px;
+  }
+  .book-entry-title { font-size: 14.5px; }
+  .book-entry-desc { font-size: 12.5px; margin-bottom: 8px; }
+  .book-entry-btn {
+    border: none;
+    padding: 0;
+    font-size: 10px;
+    letter-spacing: .14em;
+  }
 }
