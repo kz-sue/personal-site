@@ -462,7 +462,7 @@ a:hover { color: var(--teal-hover); }
 /* ===== 07 制作中 ===== */
 .wip-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
 }
 .wip-card {
@@ -656,6 +656,75 @@ a:hover { color: var(--teal-hover); }
 }
 .foot-links a { color: var(--ink-40); }
 .foot-links a:hover { color: var(--teal); }
+
+/* ===== 下層ページ: パンくず + サブヒーロー ===== */
+.crumbs {
+  padding: 14px clamp(20px, 4vw, 40px);
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+  letter-spacing: .12em;
+  color: var(--ink-50);
+}
+.crumbs a { color: var(--ink-50); }
+.crumbs a:hover { color: var(--teal); }
+.crumbs .sep {
+  color: var(--teal);
+  margin: 0 8px;
+}
+.crumbs .here { color: var(--ink); }
+
+.hero-rail--sub {
+  padding: 44px 24px;
+  min-height: 280px;
+}
+.sub-glyph {
+  font-family: var(--serif);
+  font-size: 56px;
+  font-weight: 700;
+  color: rgba(63, 208, 197, .9);
+  line-height: 1;
+}
+.sub-label {
+  font-size: 10px;
+  letter-spacing: .28em;
+  color: var(--ink-40);
+  margin-top: 14px;
+}
+.hero-catch--sub {
+  font-size: 17px;
+  letter-spacing: .3em;
+}
+.sub-title {
+  margin: 0 0 18px;
+  font-family: var(--serif);
+  font-size: clamp(26px, 4vw, 34px);
+  font-weight: 700;
+  letter-spacing: .06em;
+  line-height: 1.3;
+}
+.sub-lead {
+  margin: 0;
+  max-width: 400px;
+  font-size: 14px;
+  line-height: 2.1;
+  font-weight: 300;
+  color: rgba(232, 236, 244, .8);
+  text-wrap: pretty;
+}
+.sub-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.sub-tags span {
+  font-size: 11px;
+  letter-spacing: .06em;
+  padding: 5px 14px;
+  background: var(--teal-bg);
+  color: var(--teal);
+  border-radius: 2px;
+}
 
 /* ===== 下層ページ（特商法など） ===== */
 .page-head { padding: clamp(36px, 5vw, 48px) clamp(22px, 4vw, 40px) 0; }
