@@ -10,149 +10,148 @@
   <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="../legacy.css">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="page">
 
-    <!-- ===== Hero ===== -->
-    <header class="hero">
-      <a href="../" class="lang-switch"><i class="fa-solid fa-globe"></i> 日本語</a>
-      <div class="hero-inner">
-        <img src="../images/logo.svg" alt="" class="hero-logo">
-        <p class="hero-eyebrow">Sole Proprietorship in Japan</p>
-        <h1 class="name">ZoeLab</h1>
-        <p class="bio">
-          ZoeLab is a business based in Japan that develops and publishes mobile apps,
-          provides services related to TaskChute — a Japanese time-management method —
-          and creates manga and e-books that make complex topics easy to understand.
-        </p>
-        <div class="hero-tags">
-          <span class="hero-tag">Mobile App Development</span>
-          <span class="hero-tag">TaskChute Services</span>
-          <span class="hero-tag">Manga &amp; E-books</span>
-        </div>
-        <a href="#contact" class="hero-cta">Contact</a>
-      </div>
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <a href="./" class="brand">
+        <span class="brand-ja">ZoeLab</span>
+        <span class="brand-en">ぞえラボ</span>
+      </a>
+      <nav class="site-nav">
+        <a href="../">日本語</a>
+      </nav>
+      <a href="#contact" class="header-cta">Contact</a>
     </header>
 
-    <main class="main">
+    <main>
 
-      <!-- ===== Business Overview ===== -->
-      <section class="section">
-        <h2 class="section-title">Business Overview</h2>
-        <div class="about-card">
-          <dl class="about-list">
-            <div class="about-row">
-              <dt>Trade Name</dt>
-              <dd>ZoeLab (ぞえラボ)</dd>
-            </div>
-            <div class="about-row">
-              <dt>Representative</dt>
-              <dd>Zoe (Kasai)</dd>
-            </div>
-            <div class="about-row">
-              <dt>Address</dt>
-              <dd>2F-C, Shibuya Dogenzaka Tokyu Building, 1-10-8 Dogenzaka, Shibuya-ku, Tokyo 150-0043, Japan</dd>
-            </div>
-            <div class="about-row">
-              <dt>Business Activities</dt>
-              <dd>Development and distribution of mobile apps; TaskChute-related services (courses, corporate training, and personal coaching); manga creation and e-book publishing</dd>
-            </div>
-            <div class="about-row">
-              <dt>Contact</dt>
-              <dd><a href="mailto:contact@zoelab.jp" class="text-link">contact@zoelab.jp</a></dd>
-            </div>
-            <div class="about-row">
-              <dt>Website</dt>
-              <dd>https://zoelab.jp</dd>
-            </div>
+      <!-- ===== Hero ===== -->
+      <section class="sec hero">
+        <div class="hero-rail">
+          <img src="../images/logo-white.svg" alt="" class="hero-logo">
+          <p class="hero-catch">しくみを<span class="accent">解いて</span>、伝える</p>
+        </div>
+        <div class="hero-main">
+          <p class="hero-eyebrow">Sole Proprietorship in Japan</p>
+          <h1 class="hero-title">ZoeLab</h1>
+          <p class="hero-sub">— ぞえラボ</p>
+          <p class="hero-bio">ZoeLab is a business based in Japan that develops and publishes mobile apps, provides services related to TaskChute — a Japanese time-management method — and creates manga and e-books that make complex topics easy to understand.</p>
+          <div class="sub-tags">
+            <span>Mobile App Development</span>
+            <span>TaskChute Services</span>
+            <span>Manga &amp; E-books</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 01 Business Overview ===== -->
+      <section class="sec" id="overview">
+        <div class="rail">
+          <div class="rail-no">01</div>
+          <div class="rail-title">Business Overview</div>
+        </div>
+        <div class="sec-body">
+          <dl class="spec-list spec-list--en">
+            <dt>Trade Name</dt><dd>ZoeLab (ぞえラボ)</dd>
+            <dt>Representative</dt><dd>Zoe (Kasai)</dd>
+            <dt class="top">Address</dt><dd>2F-C, Shibuya Dogenzaka Tokyu Building, 1-10-8 Dogenzaka, Shibuya-ku, Tokyo 150-0043, Japan</dd>
+            <dt class="top">Business Activities</dt><dd>Development and distribution of mobile apps; TaskChute-related services (courses, corporate training, and personal coaching); manga creation and e-book publishing</dd>
+            <dt>Contact</dt><dd><a href="mailto:contact@zoelab.jp">contact@zoelab.jp</a></dd>
+            <dt>Website</dt><dd>https://zoelab.jp</dd>
           </dl>
         </div>
       </section>
 
-      <!-- ===== Operator Profile ===== -->
-      <section class="section">
-        <h2 class="section-title">Operator Profile</h2>
-        <div class="profile-card">
-          <div class="profile-avatar-wrap">
-            <img src="../images/profile.png" alt="Zoe" class="avatar">
-          </div>
-          <div class="profile-body">
+      <!-- ===== 02 Operator Profile ===== -->
+      <section class="sec" id="profile">
+        <div class="rail">
+          <div class="rail-no">02</div>
+          <div class="rail-title">Operator Profile</div>
+        </div>
+        <div class="sec-body profile-body">
+          <img src="../images/profile.png" alt="Zoe" class="avatar">
+          <div class="profile-main">
             <p class="profile-name">Zoe <span class="profile-role">Founder of ZoeLab</span></p>
-            <p class="profile-bio">
-              Engineer and manga artist. After years as a systems engineer — including months of 100+ hours of overtime —
-              Zoe discovered TaskChute, a Japanese time-management method, and finally started leaving work on time.
-              Today, Zoe works as a TaskChute Certified Trainer while developing apps, writing books, and creating manga.
-            </p>
+            <p class="profile-bio">Engineer and manga artist. After years as a systems engineer — including months of 100+ hours of overtime — Zoe discovered TaskChute, a Japanese time-management method, and finally started leaving work on time. Today, Zoe works as a TaskChute Certified Trainer while developing apps, writing books, and creating manga.</p>
             <ul class="profile-facts">
-              <li><i class="fa-solid fa-circle-check"></i> TaskChute Certified Trainer with course teaching experience</li>
-              <li><i class="fa-solid fa-circle-check"></i> Professional background as a systems engineer building and operating business systems</li>
-              <li><i class="fa-solid fa-circle-check"></i> Serialized the manga column "SE Joshi no Nichijo" (30+ installments) on <a href="https://ddnavi.com/sezyoshi/" target="_blank" rel="noopener" class="text-link">Da Vinci Web</a>, a KADOKAWA media outlet</li>
-              <li><i class="fa-solid fa-circle-check"></i> Author of seven e-books on IT, productivity, and manga techniques — two published commercially by the Japanese publisher Kimpusha</li>
-              <li><i class="fa-solid fa-circle-check"></i> Extensive track record of LINE stickers, four-panel comics, and explanatory illustrations</li>
+              <li><span class="dash">—</span><span>TaskChute Certified Trainer with course teaching experience</span></li>
+              <li><span class="dash">—</span><span>Professional background as a systems engineer building and operating business systems</span></li>
+              <li><span class="dash">—</span><span>Serialized the manga column "SE Joshi no Nichijo" (30+ installments) on <a href="https://ddnavi.com/sezyoshi/" target="_blank" rel="noopener">Da Vinci Web</a>, a KADOKAWA media outlet</span></li>
+              <li><span class="dash">—</span><span>Author of seven e-books on IT, productivity, and manga techniques — two published commercially by the Japanese publisher Kimpusha</span></li>
+              <li><span class="dash">—</span><span>Extensive track record of LINE stickers, four-panel comics, and explanatory illustrations</span></li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- ===== Services ===== -->
-      <section class="section">
-        <h2 class="section-title">Services</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-            <h3 class="service-title">Mobile App Development</h3>
-            <p class="service-desc">Planning, developing, and publishing mobile apps focused on task management. A TaskChute-related app is currently in development.</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-list-check"></i></div>
-            <h3 class="service-title">TaskChute Training &amp; Coaching</h3>
-            <p class="service-desc">As a TaskChute Certified Trainer, ZoeLab offers personal coaching, corporate training, and seminars.</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-pen-clip"></i></div>
-            <h3 class="service-title">Manga &amp; Illustration</h3>
-            <p class="service-desc">Four-panel comics and explanatory illustrations that turn complex topics — from technology to productivity — into visuals anyone can understand.</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-book-open"></i></div>
-            <h3 class="service-title">Writing &amp; Publishing</h3>
-            <p class="service-desc">Author of seven Kindle e-books covering IT, productivity, and manga techniques. Available for writing and editorial supervision.</p>
-          </div>
+      <!-- ===== 03 Services ===== -->
+      <section class="sec" id="services">
+        <div class="rail">
+          <div class="rail-no">03</div>
+          <div class="rail-title">Services</div>
         </div>
-      </section>
-
-      <!-- ===== Contact ===== -->
-      <section class="section" id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-card">
-          <p class="contact-lead">For business inquiries — app development, manga and illustration work, writing, or TaskChute training — please feel free to reach out.</p>
-          <div class="contact-btns">
-            <a href="mailto:contact@zoelab.jp" class="contact-btn">
-              <i class="fa-solid fa-envelope"></i> contact@zoelab.jp
-            </a>
+        <div class="sec-body services">
+          <div class="service-row">
+            <span class="service-idx">a.</span>
+            <div>
+              <div class="service-name">Mobile App Development</div>
+              <div class="service-desc">Planning, developing, and publishing mobile apps focused on task management. A TaskChute-related app is currently in development.</div>
+            </div>
+          </div>
+          <div class="service-row">
+            <span class="service-idx">b.</span>
+            <div>
+              <div class="service-name">TaskChute Training &amp; Coaching</div>
+              <div class="service-desc">As a TaskChute Certified Trainer, ZoeLab offers personal coaching, corporate training, and seminars.</div>
+            </div>
+          </div>
+          <div class="service-row">
+            <span class="service-idx">c.</span>
+            <div>
+              <div class="service-name">Manga &amp; Illustration</div>
+              <div class="service-desc">Four-panel comics and explanatory illustrations that turn complex topics — from technology to productivity — into visuals anyone can understand.</div>
+            </div>
+          </div>
+          <div class="service-row">
+            <span class="service-idx">d.</span>
+            <div>
+              <div class="service-name">Writing &amp; Publishing</div>
+              <div class="service-desc">Author of seven Kindle e-books covering IT, productivity, and manga techniques. Available for writing and editorial supervision.</div>
+            </div>
           </div>
         </div>
       </section>
 
     </main>
 
-    <!-- ===== Footer ===== -->
-    <footer class="footer">
-      <nav class="footer-links">
-        <a href="../">日本語</a>
-        <a href="../tokushoho.html">特定商取引法に基づく表記 (Legal Notice)</a>
-      </nav>
-      <p>&copy; <span id="year"></span> ZoeLab</p>
+    <!-- ===== CONTACT ===== -->
+    <footer class="sec sec--last" id="contact">
+      <div class="rail contact-rail">
+        <div class="rail-en">CONTACT</div>
+      </div>
+      <div class="contact-body">
+        <div class="contact-row">
+          <div>
+            <p class="contact-title">Contact</p>
+            <p class="contact-lead">For business inquiries — app development, manga and illustration work, writing, or TaskChute training — please feel free to reach out.</p>
+          </div>
+          <a href="mailto:contact@zoelab.jp" class="contact-btn">contact@zoelab.jp</a>
+        </div>
+        <div class="foot-meta">
+          <div class="foot-links">
+            <a href="../">日本語</a>
+            <a href="../tokushoho.html">特定商取引法に基づく表記 (Legal Notice)</a>
+          </div>
+          <span>© ZoeLab</span>
+        </div>
+      </div>
     </footer>
 
   </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

@@ -244,6 +244,8 @@ a:hover { color: var(--teal-hover); }
 .spec-list dt:last-of-type,
 .spec-list dd:last-of-type { border-bottom: none; }
 .spec-list dt.top { align-self: start; }
+.spec-list--en { grid-template-columns: 150px 1fr; }
+.spec-list--en dt { letter-spacing: .12em; }
 
 /* ===== 02 運営者情報 ===== */
 .profile-body {
