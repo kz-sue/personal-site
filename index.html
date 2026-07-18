@@ -10,339 +10,309 @@
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="page">
 
-    <!-- ===== Hero ===== -->
-    <header class="hero">
-      <a href="en/" class="lang-switch"><i class="fa-solid fa-globe"></i> English</a>
-      <div class="hero-inner">
-        <img src="images/logo.svg" alt="" class="hero-logo">
-        <p class="hero-eyebrow">個人事業</p>
-        <h1 class="name">ぞえラボ <span class="name-sub">/ ZoeLab</span></h1>
-        <p class="bio">
-          ぞえラボは、モバイルアプリの開発・配信、タスクシュート（TaskChute）関連サービス、
-          まんが制作・電子書籍の出版を行う個人事業です。
-          「しくみを解いて、伝える」をテーマに、複雑なものごとをわかりやすく届けます。
-        </p>
-        <div class="hero-tags">
-          <span class="hero-tag">モバイルアプリ開発・配信</span>
-          <span class="hero-tag">タスクシュート関連サービス</span>
-          <span class="hero-tag">まんが制作・電子書籍</span>
-        </div>
-        <a href="#contact" class="hero-cta">お問い合わせ</a>
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <a href="./" class="brand">
+        <span class="brand-ja">ぞえラボ</span>
+        <span class="brand-en">ZOELAB</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#overview">概要</a>
+        <a href="#services">サービス</a>
+        <a href="taskchute.html">タスクシュート</a>
+        <a href="#books">書籍</a>
+      </nav>
+      <div class="header-actions">
+        <a href="en/" class="lang-link">English</a>
+        <a href="#contact" class="header-cta">お問い合わせ</a>
       </div>
     </header>
 
-    <main class="main">
+    <main>
 
-      <!-- ===== 事業概要 ===== -->
-      <section class="section">
-        <h2 class="section-title">事業概要</h2>
-        <div class="about-card">
-          <dl class="about-list">
-            <div class="about-row">
-              <dt>屋号</dt>
-              <dd>ぞえラボ / ZoeLab</dd>
-            </div>
-            <div class="about-row">
-              <dt>代表</dt>
-              <dd>ぞえ／Zoe（笠井）</dd>
-            </div>
-            <div class="about-row">
-              <dt>所在地</dt>
-              <dd>〒150-0043 東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F−C</dd>
-            </div>
-            <div class="about-row">
-              <dt>事業内容</dt>
-              <dd>モバイルアプリの開発・配信／タスクシュート（TaskChute）関連サービス（講座・研修・コーチング）／まんが制作・電子書籍の執筆・出版</dd>
-            </div>
-            <div class="about-row">
-              <dt>お問い合わせ</dt>
-              <dd><a href="mailto:contact@zoelab.jp" class="text-link">contact@zoelab.jp</a></dd>
-            </div>
-            <div class="about-row">
-              <dt>ウェブサイト</dt>
-              <dd>https://zoelab.jp</dd>
-            </div>
+      <!-- ===== Hero ===== -->
+      <section class="sec hero">
+        <div class="hero-rail">
+          <img src="images/logo-white.svg" alt="" class="hero-logo">
+          <p class="hero-catch">しくみを<span class="accent">解いて</span>、伝える</p>
+        </div>
+        <div class="hero-main">
+          <p class="hero-eyebrow">個人事業 — TOKYO / SHIBUYA</p>
+          <h1 class="hero-title">ぞえラボ</h1>
+          <p class="hero-sub">— ZoeLab</p>
+          <p class="hero-bio">ぞえラボは、モバイルアプリの開発・配信、タスクシュート（TaskChute）関連サービス、まんが制作・電子書籍の出版を行う個人事業です。「しくみを解いて、伝える」をテーマに、複雑なものごとをわかりやすく届けます。</p>
+          <div class="hero-links">
+            <a href="#services" class="hero-link"><span>モバイルアプリ開発・配信</span><span class="arrow">→</span></a>
+            <a href="taskchute.html" class="hero-link"><span>タスクシュート関連サービス</span><span class="arrow">→</span></a>
+            <a href="writing.html" class="hero-link"><span>まんが制作・電子書籍</span><span class="arrow">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 01 事業概要 ===== -->
+      <section class="sec" id="overview">
+        <div class="rail">
+          <div class="rail-no">01</div>
+          <div class="rail-title">事業概要</div>
+          <div class="rail-en">OVERVIEW</div>
+        </div>
+        <div class="sec-body">
+          <dl class="spec-list">
+            <dt>屋号</dt><dd>ぞえラボ / ZoeLab</dd>
+            <dt>代表</dt><dd>ぞえ／Zoe（笠井）</dd>
+            <dt class="top">所在地</dt><dd>〒150-0043 東京都渋谷区道玄坂1丁目10番8号 渋谷道玄坂東急ビル2F−C</dd>
+            <dt class="top">事業内容</dt><dd>モバイルアプリの開発・配信／タスクシュート（TaskChute）関連サービス（講座・研修・コーチング）／まんが制作・電子書籍の執筆・出版</dd>
+            <dt>お問い合わせ</dt><dd><a href="mailto:contact@zoelab.jp">contact@zoelab.jp</a></dd>
+            <dt>ウェブサイト</dt><dd>https://zoelab.jp</dd>
           </dl>
         </div>
       </section>
 
-      <!-- ===== 運営者情報 ===== -->
-      <section class="section">
-        <h2 class="section-title">運営者情報</h2>
-        <div class="profile-card">
-          <div class="profile-avatar-wrap">
-            <img src="images/profile.png" alt="ぞえ／Zoe" class="avatar">
-          </div>
-          <div class="profile-body">
+      <!-- ===== 02 運営者情報 ===== -->
+      <section class="sec" id="profile">
+        <div class="rail">
+          <div class="rail-no">02</div>
+          <div class="rail-title">運営者情報</div>
+          <div class="rail-en">PROFILE</div>
+        </div>
+        <div class="sec-body profile-body">
+          <img src="images/profile.png" alt="ぞえ／Zoe" class="avatar">
+          <div class="profile-main">
             <p class="profile-name">ぞえ／Zoe <span class="profile-role">ぞえラボ代表</span></p>
-            <p class="profile-bio">
-              エンジニアでまんが家。SIerでのシステムエンジニア経験を経て独立。
-              月100時間の残業に嫌気が差したことをきっかけに、日本製のタスク管理手法「タスクシュート」と出会い、定時で帰れるように。
-              現在はタスクシュート認定トレーナーとして普及活動に取り組みながら、アプリ開発・執筆・まんが制作など幅広く活動しています。
-            </p>
+            <p class="profile-bio">エンジニアでまんが家。SIerでのシステムエンジニア経験を経て独立。月100時間の残業に嫌気が差したことをきっかけに、日本製のタスク管理手法「タスクシュート」と出会い、定時で帰れるように。現在はタスクシュート認定トレーナーとして普及活動に取り組みながら、アプリ開発・執筆・まんが制作など幅広く活動しています。</p>
             <ul class="profile-facts">
-              <li><i class="fa-solid fa-circle-check"></i> タスクシュート認定トレーナー（講座実績あり）</li>
-              <li><i class="fa-solid fa-circle-check"></i> システムエンジニアとして業務システムの開発・運用に従事した実務経験</li>
-              <li><i class="fa-solid fa-circle-check"></i> KADOKAWA「<a href="https://ddnavi.com/sezyoshi/" target="_blank" rel="noopener" class="text-link">ダ・ヴィンチWeb</a>」にてマンガコラム『SE女子の日常』を連載（30回以上）</li>
-              <li><i class="fa-solid fa-circle-check"></i> 電子書籍を7冊出版（IT・仕事術・マンガ技法など。うち2冊は出版社・金風舎より刊行）</li>
-              <li><i class="fa-solid fa-circle-check"></i> LINEスタンプ・4コマ漫画・解説イラストの制作実績多数</li>
+              <li><span class="dash">—</span><span>タスクシュート認定トレーナー（講座実績あり）</span></li>
+              <li><span class="dash">—</span><span>システムエンジニアとして業務システムの開発・運用に従事した実務経験</span></li>
+              <li><span class="dash">—</span><span>KADOKAWA「<a href="https://ddnavi.com/sezyoshi/" target="_blank" rel="noopener">ダ・ヴィンチWeb</a>」にてマンガコラム『SE女子の日常』を連載（30回以上）</span></li>
+              <li><span class="dash">—</span><span>電子書籍を7冊出版（IT・仕事術・マンガ技法など。うち2冊は出版社・金風舎より刊行）</span></li>
+              <li><span class="dash">—</span><span>LINEスタンプ・4コマ漫画・解説イラストの制作実績多数</span></li>
             </ul>
+            <div class="profile-tags">
+              <span>認定トレーナー</span>
+              <span>連載30回以上</span>
+              <span>電子書籍7冊</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- ===== 提供サービス ===== -->
-      <section class="section">
-        <h2 class="section-title">提供サービス</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-            <h3 class="service-title">モバイルアプリ開発・配信</h3>
-            <p class="service-desc">タスク管理を中心としたモバイルアプリの企画・開発・配信。現在、タスクシュート関連アプリを開発中です。</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-list-check"></i></div>
-            <h3 class="service-title">タスクシュート研修・講師</h3>
-            <p class="service-desc">タスクシュート認定トレーナーとして、個人コーチングや研修・セミナー講師を承ります。</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-pen-clip"></i></div>
-            <h3 class="service-title">マンガ・イラスト制作</h3>
-            <p class="service-desc">4コマ漫画や解説イラストの制作。技術書や仕事術など複雑なテーマをわかりやすく視覚化します。</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-book-open"></i></div>
-            <h3 class="service-title">書籍・コンテンツ執筆</h3>
-            <p class="service-desc">Kindle電子書籍を7冊出版。IT・仕事術・マンガ技法など幅広いジャンルの執筆・監修に対応します。</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
-            <h3 class="service-title">IT・AI活用のご相談</h3>
-            <p class="service-desc">SE経験をもとに、日常のIT困りごとの解決やAI活用方法のご相談に乗ります。気軽にどうぞ。</p>
-          </div>
+      <!-- ===== 03 提供サービス ===== -->
+      <section class="sec" id="services">
+        <div class="rail">
+          <div class="rail-no">03</div>
+          <div class="rail-title">提供サービス</div>
+          <div class="rail-en">SERVICES</div>
         </div>
-      </section>
-
-      <!-- ===== タスクシュート講座 ===== -->
-      <section class="section">
-        <h2 class="section-title">タスクシュート講座</h2>
-        <div class="course-grid">
-          <a href="https://blog.taskchute.cloud/post_lp/20250920_basic_tcct/" target="_blank" rel="noopener" class="course-card">
-            <div class="course-icon course-icon--master">
-              <i class="fa-solid fa-list-check"></i>
-            </div>
-            <div class="course-info">
-              <p class="course-name">タスクシュートベーシック講座</p>
-              <p class="course-desc">タスクシュートの基本から実践的な使い方までを学ぶ講座。</p>
-            </div>
-            <i class="fa-solid fa-arrow-right course-arrow"></i>
-          </a>
-          <a href="https://blog.taskchute.cloud/post_lp/20260131_master_tcct/" target="_blank" rel="noopener" class="course-card">
-            <div class="course-icon">
-              <i class="fa-solid fa-ranking-star"></i>
-            </div>
-            <div class="course-info">
-              <p class="course-name">タスクシュートマスター講座</p>
-              <p class="course-desc">さらに深くタスクシュートを体得するための上位講座。</p>
-            </div>
-            <i class="fa-solid fa-arrow-right course-arrow"></i>
-          </a>
-        </div>
-      </section>
-
-      <!-- ===== 電子書籍 ===== -->
-      <section class="section">
-        <h2 class="section-title">電子書籍</h2>
-        <div class="books-grid">
-          <a href="https://amzn.to/2TngaWz" target="_blank" rel="noopener" class="book-card">
-            <img src="https://kt-zoe.com/_wu/2020/05/cover-352x500.jpg" alt="SE女子の日常（１）" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">SE女子の日常（１）</p>
-              <p class="book-desc">元SE女子が送る、イラストと文章で楽しむSEあるある！</p>
-              <p class="book-publisher">個人出版</p>
-            </div>
-          </a>
-          <a href="https://amzn.to/2OowL9A" target="_blank" rel="noopener" class="book-card">
-            <img src="https://kt-zoe.com/_wu/2020/07/cover_20200714-352x500.jpg" alt="SE女子の日常（２）" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">SE女子の日常（２）</p>
-              <p class="book-desc">元SE女子が送る、イラストと文章で楽しむSEあるある！</p>
-              <p class="book-publisher">個人出版</p>
-            </div>
-          </a>
-          <a href="https://amzn.to/4nSwBaL" target="_blank" rel="noopener" class="book-card">
-            <img src="images/excel_cover.jpg" alt="4コマ漫画でわかるExcelテクニック" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">4コマ漫画でわかるExcelテクニック</p>
-              <p class="book-desc">SE女子が教えるエクセルの小ワザ。4コマ漫画でExcelの便利技をわかりやすく解説。</p>
-              <p class="book-publisher">個人出版</p>
-            </div>
-          </a>
-          <a href="https://amzn.to/3h0H1kW" target="_blank" rel="noopener" class="book-card">
-            <img src="https://m.media-amazon.com/images/I/513VVdr20uL.jpg" alt="マンガを描きたい人のためのタスク管理超入門" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">マンガを描きたい人のためのタスク管理超入門</p>
-              <p class="book-desc">「時間がなくてマンガが描けない！」をタスク管理で解決。</p>
-              <p class="book-publisher">個人出版</p>
-            </div>
-          </a>
-          <a href="https://amzn.to/2LYmU9l" target="_blank" rel="noopener" class="book-card">
-            <img src="https://m.media-amazon.com/images/I/51uNYPBdIWL.jpg" alt="残業を減らすプチIT化仕事術（合冊版）" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">残業を減らすプチIT化仕事術（合冊版）</p>
-              <p class="book-desc">少しでもIT（PC）スキルを高めれば、みんなの仕事はスムーズにいくはず。</p>
-              <p class="book-publisher book-publisher--commercial">出版: 金風舎</p>
-            </div>
-          </a>
-          <a href="https://amzn.to/2M28S6x" target="_blank" rel="noopener" class="book-card">
-            <img src="https://kt-zoe.com/_wu/2020/05/c4305297eba2b9cf630cce6fd4a877a6-352x500.jpg" alt="てぬきっこ（１）" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">てぬきっこ（１）</p>
-              <p class="book-desc">完璧主義から抜け出し、「手抜き思考」でラクに目標へ届く。</p>
-              <p class="book-publisher">個人出版</p>
-            </div>
-          </a>
-          <a href="https://amzn.to/3gjSxbt" target="_blank" rel="noopener" class="book-card">
-            <img src="https://kt-zoe.com/_wu/2016/04/slproImg_201604210722020-375x500.jpg" alt="残業を減らし定時で帰る仕事術" class="book-cover">
-            <div class="book-info">
-              <p class="book-title">残業を減らし定時で帰る仕事術</p>
-              <p class="book-desc">タスク管理で残業を減らし、定時で帰るための仕事術。</p>
-              <p class="book-publisher book-publisher--commercial">出版: 金風舎</p>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <!-- ===== LINEスタンプ ===== -->
-      <section class="section">
-        <h2 class="section-title section-title--line">LINEスタンプ</h2>
-        <div class="stamps-grid">
-          <a href="https://store.line.me/stickershop/product/14389199/ja" target="_blank" rel="noopener" class="stamp-card">
-            <img src="https://stickershop.line-scdn.net/stickershop/v1/product/14389199/LINEStorePC/main.png" alt="れさぱん2" class="stamp-img">
-            <p class="stamp-title">れさぱん2</p>
-          </a>
-          <a href="https://store.line.me/stickershop/product/13783268/ja" target="_blank" rel="noopener" class="stamp-card">
-            <img src="https://stickershop.line-scdn.net/stickershop/v1/product/13783268/LINEStorePC/main.png" alt="れさぱん1" class="stamp-img">
-            <p class="stamp-title">れさぱん1</p>
-          </a>
-          <a href="https://store.line.me/stickershop/product/12331162/ja" target="_blank" rel="noopener" class="stamp-card">
-            <img src="https://stickershop.line-scdn.net/stickershop/v1/product/12331162/LINEStorePC/main.png" alt="SE女子の日常１" class="stamp-img">
-            <p class="stamp-title">SE女子の日常１</p>
-          </a>
-          <a href="https://store.line.me/stickershop/product/11573622/ja" target="_blank" rel="noopener" class="stamp-card">
-            <img src="https://stickershop.line-scdn.net/stickershop/v1/product/11573622/LINEStorePC/main.png" alt="元SE女子【日常系】" class="stamp-img">
-            <p class="stamp-title">元SE女子【日常系】</p>
-          </a>
-        </div>
-      </section>
-
-      <!-- ===== 制作中 ===== -->
-      <section class="section">
-        <h2 class="section-title">制作中</h2>
-        <div class="works-grid">
-          <div class="work-card">
-            <div class="work-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-            <p class="work-title">TaskChute Cloud Lite</p>
-            <span class="badge">Coming Soon</span>
-          </div>
-          <div class="work-card">
-            <div class="work-icon"><i class="fa-solid fa-gamepad"></i></div>
-            <p class="work-title">掃除×整頓ゲーム</p>
-            <span class="badge">Coming Soon</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== SNS (個人アカウント) ===== -->
-      <section class="section">
-        <h2 class="section-title">SNS（個人アカウント）</h2>
-        <div class="sns-grid">
-          <a href="https://twitter.com/zoew256" target="_blank" rel="noopener" class="sns-card">
-            <i class="fa-brands fa-x-twitter sns-icon"></i>
-            <span>X (Twitter)</span>
-          </a>
-          <a href="https://www.instagram.com/zoew256/" target="_blank" rel="noopener" class="sns-card">
-            <i class="fa-brands fa-instagram sns-icon"></i>
-            <span>Instagram</span>
-          </a>
-          <a href="https://note.com/kz_sue" target="_blank" rel="noopener" class="sns-card">
-            <span class="note-icon sns-icon">n</span>
-            <span>note</span>
-          </a>
-          <a href="https://open.spotify.com/show/1W5FqzV4NzBBrqHshy5Y1b" target="_blank" rel="noopener" class="sns-card">
-            <i class="fa-brands fa-spotify sns-icon"></i>
-            <span class="sns-label">Podcast<span class="sns-sublabel">ふりにちキャスト</span></span>
-          </a>
-        </div>
-      </section>
-
-      <!-- ===== しくみを解いて、伝える ===== -->
-      <section class="section">
-        <h2 class="section-title">しくみを解いて、伝える</h2>
-        <div class="sns-grid">
-          <a href="https://note.com/zoe_lab" target="_blank" rel="noopener" class="sns-card">
-            <span class="note-icon sns-icon">n</span>
-            <span>構造分析ラボ</span>
-          </a>
-          <div class="sns-card sns-card--disabled">
-            <i class="fa-brands fa-instagram sns-icon"></i>
-            <span>Instagram <span class="badge">Coming Soon</span></span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== Blog ===== -->
-      <section class="section">
-        <h2 class="section-title">過去ブログサイト</h2>
-        <a href="https://kt-zoe.com" target="_blank" rel="noopener" class="blog-card">
-          <div class="blog-card-left">
-            <div class="blog-icon">
-              <i class="fa-solid fa-pen-nib"></i>
-            </div>
+        <div class="sec-body services">
+          <div class="service-row">
+            <span class="service-idx">a.</span>
             <div>
-              <p class="blog-name">ふりにち</p>
-              <p class="blog-desc">日々の気づき・IT・仕事術・マンガ</p>
+              <div class="service-name">モバイルアプリ開発・配信</div>
+              <div class="service-desc">タスク管理を中心としたモバイルアプリの企画・開発・配信。現在、タスクシュート関連アプリを開発中です。</div>
             </div>
           </div>
-          <i class="fa-solid fa-arrow-right blog-arrow"></i>
-        </a>
+          <a href="taskchute.html" class="service-row">
+            <span class="service-idx">b.</span>
+            <div>
+              <div class="service-name">タスクシュート研修・講師</div>
+              <div class="service-desc">タスクシュート認定トレーナーとして、個人コーチングや研修・セミナー講師を承ります。</div>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+          <a href="writing.html" class="service-row">
+            <span class="service-idx">c.</span>
+            <div>
+              <div class="service-name">マンガ・書籍執筆</div>
+              <div class="service-desc">4コマ漫画や実用イラストの制作。技術や仕事術など複雑なテーマを、まんがの力でわかりやすく届けます。KADOKAWA「ダ・ヴィンチWeb」でのマンガコラム連載実績あり。</div>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+        </div>
       </section>
 
-      <!-- ===== お問い合わせ ===== -->
-      <section class="section" id="contact">
-        <h2 class="section-title">お問い合わせ</h2>
-        <div class="contact-card">
-          <p class="contact-lead">お仕事のご依頼（マンガ・イラスト制作、書籍執筆、タスクシュート研修、IT・AI活用のご相談など）や、<br>事業に関するお問い合わせは下記までお気軽にどうぞ。</p>
-          <div class="contact-btns">
-            <a href="mailto:contact@zoelab.jp" class="contact-btn">
-              <i class="fa-solid fa-envelope"></i> contact@zoelab.jp
+      <!-- ===== 04 電子書籍 ===== -->
+      <section class="sec" id="books">
+        <div class="rail">
+          <div class="rail-no">04</div>
+          <div class="rail-title">電子書籍</div>
+          <div class="rail-en">BOOKS — 7冊</div>
+        </div>
+        <div class="sec-body">
+          <div class="books-grid books-grid--four">
+            <a href="https://amzn.to/2TngaWz" target="_blank" rel="noopener" class="book">
+              <img src="https://kt-zoe.com/_wu/2020/05/cover-352x500.jpg" alt="SE女子の日常（１）" class="book-cover">
+              <div class="book-title">SE女子の日常（１）</div>
+              <div class="book-pub">個人出版</div>
+            </a>
+            <a href="https://amzn.to/4nSwBaL" target="_blank" rel="noopener" class="book">
+              <img src="images/excel_cover.jpg" alt="4コマ漫画でわかるExcelテクニック" class="book-cover">
+              <div class="book-title">4コマ漫画でわかるExcelテクニック</div>
+              <div class="book-pub">個人出版</div>
+            </a>
+            <a href="https://amzn.to/2LYmU9l" target="_blank" rel="noopener" class="book">
+              <img src="https://m.media-amazon.com/images/I/51uNYPBdIWL.jpg" alt="残業を減らすプチIT化仕事術（合冊版）" class="book-cover">
+              <div class="book-title">残業を減らすプチIT化仕事術（合冊版）</div>
+              <div class="book-pub">出版: 金風舎</div>
+            </a>
+            <a href="https://amzn.to/3gjSxbt" target="_blank" rel="noopener" class="book">
+              <img src="https://kt-zoe.com/_wu/2016/04/slproImg_201604210722020-375x500.jpg" alt="残業を減らし定時で帰る仕事術" class="book-cover">
+              <div class="book-title">残業を減らし定時で帰る仕事術</div>
+              <div class="book-pub">出版: 金風舎</div>
+            </a>
+          </div>
+          <a href="books.html" class="books-more">すべての書籍を見る（7冊） →</a>
+        </div>
+      </section>
+
+      <!-- ===== 05 LINEスタンプ ===== -->
+      <section class="sec" id="stamps">
+        <div class="rail">
+          <div class="rail-no">05</div>
+          <div class="rail-title">LINEスタンプ</div>
+          <div class="rail-en">STICKERS</div>
+        </div>
+        <div class="sec-body">
+          <div class="stamps-grid">
+            <a href="https://store.line.me/stickershop/product/14389199/ja" target="_blank" rel="noopener" class="stamp">
+              <img src="https://stickershop.line-scdn.net/stickershop/v1/product/14389199/LINEStorePC/main.png" alt="れさぱん2" class="stamp-img">
+              <div class="stamp-name">れさぱん2</div>
+            </a>
+            <a href="https://store.line.me/stickershop/product/13783268/ja" target="_blank" rel="noopener" class="stamp">
+              <img src="https://stickershop.line-scdn.net/stickershop/v1/product/13783268/LINEStorePC/main.png" alt="れさぱん1" class="stamp-img">
+              <div class="stamp-name">れさぱん1</div>
+            </a>
+            <a href="https://store.line.me/stickershop/product/12331162/ja" target="_blank" rel="noopener" class="stamp">
+              <img src="https://stickershop.line-scdn.net/stickershop/v1/product/12331162/LINEStorePC/main.png" alt="SE女子の日常１" class="stamp-img">
+              <div class="stamp-name">SE女子の日常１</div>
+            </a>
+            <a href="https://store.line.me/stickershop/product/11573622/ja" target="_blank" rel="noopener" class="stamp">
+              <img src="https://stickershop.line-scdn.net/stickershop/v1/product/11573622/LINEStorePC/main.png" alt="元SE女子【日常系】" class="stamp-img">
+              <div class="stamp-name">元SE女子【日常系】</div>
             </a>
           </div>
         </div>
       </section>
 
+      <!-- ===== 06 制作中 ===== -->
+      <section class="sec" id="wip">
+        <div class="rail">
+          <div class="rail-no">06</div>
+          <div class="rail-title">制作中</div>
+          <div class="rail-en">IN PROGRESS</div>
+        </div>
+        <div class="sec-body wip-grid">
+          <div class="wip-card">
+            <div class="wip-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <div class="wip-name">掃除×整頓ゲーム</div>
+            <span class="badge-soon">COMING SOON</span>
+          </div>
+          <div class="wip-card">
+            <div class="wip-icon"><i class="fa-solid fa-tablet-screen-button"></i></div>
+            <div class="wip-name">ラフ管理アプリ</div>
+            <span class="badge-soon">COMING SOON</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 07 SNS（個人アカウント） ===== -->
+      <section class="sec" id="sns">
+        <div class="rail">
+          <div class="rail-no">07</div>
+          <div class="rail-title">SNS</div>
+          <div class="rail-en">個人アカウント</div>
+        </div>
+        <div class="sec-body sns-grid">
+          <a href="https://twitter.com/zoew256" target="_blank" rel="noopener" class="sns-card">
+            <span class="sns-glyph"><i class="fa-brands fa-x-twitter"></i></span>
+            <span>X (Twitter)</span>
+          </a>
+          <a href="https://www.instagram.com/zoew256/" target="_blank" rel="noopener" class="sns-card">
+            <span class="sns-glyph"><i class="fa-brands fa-instagram"></i></span>
+            <span>Instagram</span>
+          </a>
+          <a href="https://note.com/kz_sue" target="_blank" rel="noopener" class="sns-card">
+            <span class="sns-glyph note-glyph">n</span>
+            <span>note</span>
+          </a>
+          <a href="https://open.spotify.com/show/1W5FqzV4NzBBrqHshy5Y1b" target="_blank" rel="noopener" class="sns-card">
+            <span class="sns-glyph"><i class="fa-brands fa-spotify"></i></span>
+            <span>Podcast<br><span class="sns-sub">ふりにちキャスト</span></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ===== 08 しくみを解いて、伝える ===== -->
+      <section class="sec" id="lab">
+        <div class="rail">
+          <div class="rail-no">08</div>
+          <div class="rail-title rail-title--tight">しくみを解いて、伝える</div>
+          <div class="rail-en">LAB</div>
+        </div>
+        <div class="sec-body lab-grid">
+          <a href="https://note.com/zoe_lab" target="_blank" rel="noopener" class="sns-card">
+            <span class="sns-glyph note-glyph">n</span>
+            <span>構造分析ラボ</span>
+            <span class="arrow">→</span>
+          </a>
+          <div class="sns-card sns-card--disabled">
+            <span class="sns-glyph"><i class="fa-brands fa-instagram"></i></span>
+            <span>Instagram</span>
+            <span class="badge-soon badge-soon--sm">COMING SOON</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 09 過去ブログサイト ===== -->
+      <section class="sec" id="archive">
+        <div class="rail">
+          <div class="rail-no">09</div>
+          <div class="rail-title">過去ブログサイト</div>
+          <div class="rail-en">ARCHIVE</div>
+        </div>
+        <div class="sec-body">
+          <a href="https://kt-zoe.com" target="_blank" rel="noopener" class="archive-card">
+            <div class="archive-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <div>
+              <div class="archive-name">ふりにち</div>
+              <div class="archive-desc">日々の気づき・IT・仕事術・マンガ</div>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </section>
+
     </main>
 
-    <!-- ===== Footer ===== -->
-    <footer class="footer">
-      <nav class="footer-links">
-        <a href="tokushoho.html">特定商取引法に基づく表記</a>
-        <a href="en/">English</a>
-      </nav>
-      <p>&copy; <span id="year"></span> ぞえラボ / ZoeLab</p>
+    <!-- ===== CONTACT ===== -->
+    <footer class="sec sec--last" id="contact">
+      <div class="rail contact-rail">
+        <div class="rail-en">CONTACT</div>
+      </div>
+      <div class="contact-body">
+        <div class="contact-row">
+          <div>
+            <p class="contact-title">お仕事のご依頼はこちら</p>
+            <p class="contact-lead">お仕事のご依頼（マンガ・イラスト制作、書籍執筆、タスクシュート研修、IT・AI活用のご相談など）や、事業に関するお問い合わせは下記までお気軽にどうぞ。</p>
+          </div>
+          <a href="mailto:contact@zoelab.jp" class="contact-btn">contact@zoelab.jp</a>
+        </div>
+        <div class="foot-meta">
+          <div class="foot-links">
+            <a href="tokushoho.html">特定商取引法に基づく表記</a>
+            <a href="en/">English</a>
+          </div>
+          <span>© ぞえラボ / ZoeLab</span>
+        </div>
+      </div>
     </footer>
 
   </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
